@@ -1,0 +1,51 @@
+body {
+            background-image: url(https://ksassets.timeincuk.net/wp/uploads/sites/56/2020/01/Navy-blue-kitchen-Ideal-Home.jpg);
+        }
+
+        h1 {
+            text-align: center;
+
+        }
+
+        .start {
+            background-color: #1e3640;
+            opacity: 0.8;
+            border: 2px solid white;
+            color: white;
+        }
+
+        .image {
+            opacity: 1.8;
+            margin: 9px 560px;
+        }
+
+        img {
+            border: 2px solid #0e2e38;
+        }
+
+        .info {
+            text-align: center;
+
+        }
+
+        .ingredients {
+            opacity: 0.8;
+            background-color: #bdc1be;
+            border: 2px solid #0e2e38;
+            float: left;
+            font-size: larger;
+        }
+
+        .ingredients h2 {
+            text-align: center;
+        }
+
+        .preparation {
+            text-align: center;
+            background-color: #f18701;
+            border: 2px solid #0e2e38;
+            margin-left: 396px;
+            font-size: x-large;
+            opacity: 0.8;
+            height: 360px;
+        }
