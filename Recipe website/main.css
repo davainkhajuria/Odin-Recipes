@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Vollkorn:ital@1&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+
+}
+
+body {
+    background-image: url(https://vegnews.com/media/W1siZiIsIjEzNjIyL2lTdG9jay05MTE0NTg4OTIuanBnIl0sWyJwIiwiY3JvcF9yZXNpemVkIiwiMjExOXgxMjUyKzArMTU5IiwiMTYwMHg5NDZeIix7ImZvcm1hdCI6ImpwZyJ9XSxbInAiLCJvcHRpbWl6ZSJdXQ/iStock-911458892.jpg?sha=325f6ce8c5e3fbe0);
+    background-size: cover;
+}
+
+.header {
+    /* background-image: linear-gradient(to right bottom, #00940685, #b72ccf70); */
+    background-color: #faebd73d;
+    border-bottom: 2px solid rgb(0 0 0 / 52%);
+    /* margin-bottom: 1rem;  */
+    font-family: 'DM Serif Display', serif;
+    font-family: 'Estonia', cursive;
+    font-family: 'Spectral SC', serif
+}
+
+h1 {
+    /* color: #120606; */
+    color: black;
+    margin-left: 1rem;
+    font-size: 3rem;
+    text-align: left;
+}
+
+#quote {
+    font-family: 'Pacifico', cursive;
+    text-align: end;
+    font-size: 1.7rem;
+    margin-right: 7rem;
+    color: black;
+}
+
+.red {
+    font-family: 'Pacifico', cursive;
+    color: #a50310ed;
+}
+
+#container {
+    /* background-color: rgb(117 117 117 / 18%); */
+}
+
+
+#intro {
+    font-family: 'Vollkorn', serif;
+    /* margin-top: 2rem; */
+    padding: 2rem;
+    background-color: rgb(117 117 117 / 63%);
+    font-size: 26px;
+    font-weight: bolder;
+    height: 11rem;
+}
+
+#cuisines {
+    margin-top: 2rem;
+    padding: 1rem;
+    background-color: rgb(117 117 117 / 3%);
+    font-size: xx-large;
+    font-weight: bolder;
+    height: 13rem;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Pacifico', cursive;
+}
+
+.types {
+    margin-top: 2rem;
+}
+
+li {
+    list-style: none;
+    display: inline;
+    margin: 1rem;
+}
+
+li a {
+    text-decoration: none;
+}
+
+button {
+    font-style: oblique;
+    font-size: 21px;
+    padding: 0.5rem;
+    /* background-color: #a50310b3; */
+    background-image: linear-gradient(to right bottom, #000000, #9d0505e6);
+    /* border: 2px solid black; */
+    border: transparent;
+    border-radius: 12px;
+    opacity: 0.85;
+    height: 2.5rem;
+    width: 13rem;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+li button:hover {
+    background-image: linear-gradient(to right bottom, #9d0505e6, black);
+    opacity: 0.95;
+}
+
+footer {
+    text-align: center;
+    font-family: 'Spectral SC', serif;
+    /* margin-top: 3rem; */
+    padding: 1rem;
+    background-color: rgb(117 117 117 / 63%);
+    font-size: 26px;
+    font-weight: bolder;
+    height: 3rem;
+}
