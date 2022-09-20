@@ -88,16 +88,16 @@ li a {
 
 button {
     font-style: oblique;
-    font-size: 21px;
+    font-size: 16px;
     padding: 0.5rem;
-    /* background-color: #a50310b3; */
-    background-image: linear-gradient(to right bottom, #000000, #9d0505e6);
+    background-color: #000000e3;
+    background-image: black;
     /* border: 2px solid black; */
     border: transparent;
-    border-radius: 12px;
+    /* border-radius: 12px; */
     opacity: 0.85;
-    height: 2.5rem;
-    width: 13rem;
+    height: 2rem;
+    width: 10rem;
     color: #ffffff;
     cursor: pointer;
 }
@@ -110,7 +110,7 @@ li button:hover {
 footer {
     text-align: center;
     font-family: 'Spectral SC', serif;
-    /* margin-top: 3rem; */
+    margin-top: 4rem;
     padding: 1rem;
     background-color: rgb(117 117 117 / 63%);
     font-size: 26px;
